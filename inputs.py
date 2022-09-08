@@ -9,7 +9,7 @@ def ask_city():
 
 def ask_to_continue():
     answer = input("Do you want to continue? (y/n): ")
-    return answer
+    return answer.lower()
 
 
 def inputs():
