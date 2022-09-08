@@ -1,4 +1,3 @@
-counter = 0
 cities_list = []
 
 
