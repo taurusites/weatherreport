@@ -4,8 +4,8 @@ import data_processing
 import output
 
 def app():
-  list_ofcities = inputs.inputs()
-  print (list_ofcities)
+  list_of_cities = inputs.inputs()
+  api.api_lookup(list_of_cities)
 
 if __name__ == "__main__":
   app()
